@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E1F1C3C1CA596DB008EF4E3 /* forscanner_extended.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E1F1C3B1CA596DB008EF4E3 /* forscanner_extended.plist */; };
+		5E1F1C431CA95E6A008EF4E3 /* TopicsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E1F1C421CA95E6A008EF4E3 /* TopicsCell.xib */; };
+		5E1F1C461CA98E53008EF4E3 /* TopicsCell_photo+.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E1F1C451CA98E53008EF4E3 /* TopicsCell_photo+.xib */; };
+		5E4E5CDA1CBEA9F300CCB3F4 /* OwnHttpReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4E5CD91CBEA9F300CCB3F4 /* OwnHttpReader.m */; };
+		5E4E5CDC1CC6681C00CCB3F4 /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E4E5CDB1CC6681B00CCB3F4 /* overlay.png */; };
+		5E4E5CDE1CC6759000CCB3F4 /* med_house.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E4E5CDD1CC6759000CCB3F4 /* med_house.png */; };
+		5E55EB371CABDEAA00226301 /* forscanner_minified.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E55EB361CABDEAA00226301 /* forscanner_minified.plist */; };
+		5E55EB391CAC1A2A00226301 /* ModalForAddingDrugs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E55EB381CAC1A2A00226301 /* ModalForAddingDrugs.xib */; };
+		5E55EB3C1CAC1A8F00226301 /* ModalForAddingDrugs.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E55EB3B1CAC1A8F00226301 /* ModalForAddingDrugs.m */; };
+		5E55EB401CAC26EA00226301 /* PopOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E55EB3E1CAC26EA00226301 /* PopOverViewController.m */; };
+		5E55EB411CAC26EA00226301 /* PopOverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E55EB3F1CAC26EA00226301 /* PopOverViewController.xib */; };
+		5E55EB441CAD440700226301 /* MedicineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E55EB431CAD440700226301 /* MedicineView.xib */; };
+		5E55EB471CAD441600226301 /* MedicineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E55EB461CAD441600226301 /* MedicineView.m */; };
+		5E55EEB41CEC892E0070FF23 /* ApothecariesListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E55EEB31CEC892E0070FF23 /* ApothecariesListController.m */; };
+		5E55EEB81CEC89BF0070FF23 /* ApothecariesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E55EEB71CEC89BF0070FF23 /* ApothecariesCell.m */; };
+		5E55EEBA1CEC8C790070FF23 /* ApothecariesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E55EEB91CEC8C790070FF23 /* ApothecariesCell.xib */; };
+		5E601ABB1CA2B29B005C6DC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E601ABA1CA2B29B005C6DC0 /* main.m */; };
+		5E601ABE1CA2B29B005C6DC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E601ABD1CA2B29B005C6DC0 /* AppDelegate.m */; };
+		5E601AC11CA2B29B005C6DC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E601AC01CA2B29B005C6DC0 /* ViewController.m */; };
+		5E601AC41CA2B29B005C6DC0 /* Main@3.5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E601AC21CA2B29B005C6DC0 /* Main@3.5.storyboard */; };
+		5E601AC61CA2B29B005C6DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E601AC51CA2B29B005C6DC0 /* Assets.xcassets */; };
+		5E601AC91CA2B29B005C6DC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E601AC71CA2B29B005C6DC0 /* LaunchScreen.storyboard */; };
+		5E601AD41CA2B29B005C6DC0 /* __________________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E601AD31CA2B29B005C6DC0 /* __________________UITests.m */; };
+		5E601ADF1CA2C26B005C6DC0 /* Main@4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E601ADE1CA2C26B005C6DC0 /* Main@4.storyboard */; };
+		5E6C8E3E1CB3F652000EF2BC /* DescrByNameTblViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6C8E3D1CB3F652000EF2BC /* DescrByNameTblViewController.m */; };
+		5E6C8E401CB3F689000EF2BC /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6C8E3F1CB3F689000EF2BC /* FourthViewController.xib */; };
+		5E6C8E431CB3F695000EF2BC /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6C8E421CB3F695000EF2BC /* FourthViewController.m */; };
+		5E6C8E531CB3F8EF000EF2BC /* AppDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6C8E521CB3F8EF000EF2BC /* AppDetails.m */; };
+		5E6C8E561CB3F92F000EF2BC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6C8E551CB3F92F000EF2BC /* GameViewController.m */; };
+		5E6C8E581CB3FA49000EF2BC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6C8E571CB3FA49000EF2BC /* MapKit.framework */; };
+		5E6C8E5A1CB3FA5F000EF2BC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6C8E591CB3FA5F000EF2BC /* CoreLocation.framework */; };
+		5E6C8E5C1CB3FA67000EF2BC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6C8E5B1CB3FA67000EF2BC /* QuartzCore.framework */; };
+		5E6C8E5E1CB3FAAD000EF2BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6C8E5D1CB3FAAD000EF2BC /* Foundation.framework */; };
+		5E6C8E631CB3FAD5000EF2BC /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6C8E601CB3FAD5000EF2BC /* MyAnnotation.m */; };
+		5E6C8E641CB3FAD5000EF2BC /* MyAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6C8E621CB3FAD5000EF2BC /* MyAnnotationView.m */; };
+		5E6C8E671CB3FAE4000EF2BC /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6C8E661CB3FAE4000EF2BC /* DetailedViewController.m */; };
+		5E6C8E821CB4009A000EF2BC /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6C8E811CB4009A000EF2BC /* libxml2.tbd */; };
+		5E6C8E871CB40139000EF2BC /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6C8E861CB40139000EF2BC /* libiconv.tbd */; };
+		5E6C8E891CB40148000EF2BC /* libSystem.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6C8E881CB40148000EF2BC /* libSystem.tbd */; };
+		5E6D88831D33B395007E2C1B /* JLTStepper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D88821D33B395007E2C1B /* JLTStepper.m */; };
+		5E72C5061CC7DE8200A0C34D /* 1_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C4F71CC7DE8200A0C34D /* 1_01.png */; };
+		5E72C5071CC7DE8200A0C34D /* 1_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C4F81CC7DE8200A0C34D /* 1_02.png */; };
+		5E72C5081CC7DE8200A0C34D /* 1_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C4F91CC7DE8200A0C34D /* 1_03.png */; };
+		5E72C5091CC7DE8200A0C34D /* 1_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C4FA1CC7DE8200A0C34D /* 1_04.png */; };
+		5E72C50A1CC7DE8200A0C34D /* 1_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C4FB1CC7DE8200A0C34D /* 1_05.png */; };
+		5E72C50B1CC7DE8200A0C34D /* 1_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C4FC1CC7DE8200A0C34D /* 1_06.png */; };
+		5E72C50C1CC7DE8200A0C34D /* 1_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C4FD1CC7DE8200A0C34D /* 1_07.png */; };
+		5E72C50D1CC7DE8200A0C34D /* 1_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C4FE1CC7DE8200A0C34D /* 1_08.png */; };
+		5E72C50E1CC7DE8200A0C34D /* 1_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C4FF1CC7DE8200A0C34D /* 1_09.png */; };
+		5E72C50F1CC7DE8200A0C34D /* 1_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C5001CC7DE8200A0C34D /* 1_10.png */; };
+		5E72C5101CC7DE8200A0C34D /* 1_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C5011CC7DE8200A0C34D /* 1_11.png */; };
+		5E72C5111CC7DE8200A0C34D /* 1_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C5021CC7DE8200A0C34D /* 1_12.png */; };
+		5E72C5121CC7DE8200A0C34D /* 1_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C5031CC7DE8200A0C34D /* 1_13.png */; };
+		5E72C5131CC7DE8200A0C34D /* 1_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C5041CC7DE8200A0C34D /* 1_14.png */; };
+		5E72C5141CC7DE8200A0C34D /* 1_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E72C5051CC7DE8200A0C34D /* 1_15.png */; };
+		5EB9FDEC1CFC90FA00936A4D /* PreorderData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9FDEB1CFC90FA00936A4D /* PreorderData.m */; };
+		5EB9FDF01CFEF35600936A4D /* MedicinesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9FDEF1CFEF35600936A4D /* MedicinesCell.m */; };
+		5EB9FDF21CFEF59700936A4D /* MedicinesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB9FDF11CFEF59700936A4D /* MedicinesCell.xib */; };
+		5EC50AC91CD0BD71004497F5 /* drugstoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC50AC81CD0BD71004497F5 /* drugstoreIcon.png */; };
+		5EC50ACC1CD0BFE8004497F5 /* drugstoreIcon_doubleWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC50ACA1CD0BFE8004497F5 /* drugstoreIcon_doubleWhite.png */; };
+		5EC50ACD1CD0BFE8004497F5 /* drugstoreIcon_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC50ACB1CD0BFE8004497F5 /* drugstoreIcon_white.png */; };
+		5EC50ACF1CD0C0D6004497F5 /* drugstoreIcon_minusWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC50ACE1CD0C0D6004497F5 /* drugstoreIcon_minusWhite.png */; };
+		5EC50AD11CD0C62C004497F5 /* drugstoreIcon_minusWhite_strip.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC50AD01CD0C62C004497F5 /* drugstoreIcon_minusWhite_strip.png */; };
+		5EC50AD31CD0C8FA004497F5 /* drugstoreIcon_green_strip.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC50AD21CD0C8FA004497F5 /* drugstoreIcon_green_strip.png */; };
+		5EC50AD61CD0E47A004497F5 /* DrugstoreDesk.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC50AD51CD0E47A004497F5 /* DrugstoreDesk.m */; };
+		5EC50AD91CE36B53004497F5 /* UserAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC50AD81CE36B4E004497F5 /* UserAccount.m */; };
+		5EDD30801CB583AD000071D0 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD307D1CB583AD000071D0 /* HTMLNode.m */; };
+		5EDD30811CB583AD000071D0 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD307F1CB583AD000071D0 /* HTMLParser.m */; };
+		5EDD30841CB58520000071D0 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD30831CB58520000071D0 /* NSString+HTML.m */; };
+		5EDD30871CB58543000071D0 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD30861CB58543000071D0 /* GTMNSString+HTML.m */; };
+		5EDD308C1CB7E053000071D0 /* MedicinesPreOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDD308B1CB7E053000071D0 /* MedicinesPreOrderCell.m */; };
+		5EDD308E1CB7E0FE000071D0 /* MedicinesPreOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EDD308D1CB7E0FE000071D0 /* MedicinesPreOrderCell.xib */; };
+		5EFD7B9C1CA2D33800CEF640 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD7B9A1CA2D33800CEF640 /* SWRevealViewController.m */; };
+		5EFD7BA11CA2D7E200CEF640 /* Main@4_testing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFD7B9F1CA2D7E200CEF640 /* Main@4_testing.storyboard */; };
+		5EFD7BA51CA2D92600CEF640 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFD7BA21CA2D92600CEF640 /* CoreGraphics.framework */; };
+		5EFD7BA61CA2D92600CEF640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFD7BA31CA2D92600CEF640 /* UIKit.framework */; };
+		5EFD7BA71CA2D92600CEF640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFD7BA41CA2D92600CEF640 /* Foundation.framework */; };
+		5EFD7BAA1CA2DA8000CEF640 /* ArticleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD7BA91CA2DA8000CEF640 /* ArticleController.m */; };
+		5EFD7BB71CA2DAB400CEF640 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD7BAC1CA2DAB400CEF640 /* HomeController.m */; };
+		5EFD7BB81CA2DAB400CEF640 /* Lifestyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD7BAE1CA2DAB400CEF640 /* Lifestyle.m */; };
+		5EFD7BB91CA2DAB400CEF640 /* Fashion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD7BB01CA2DAB400CEF640 /* Fashion.m */; };
+		5EFD7BBA1CA2DAB400CEF640 /* Design.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD7BB21CA2DAB400CEF640 /* Design.m */; };
+		5EFD7BBB1CA2DAB400CEF640 /* TopicsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD7BB41CA2DAB400CEF640 /* TopicsCell.m */; };
+		5EFD7BBC1CA2DAB400CEF640 /* HomeContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD7BB61CA2DAB400CEF640 /* HomeContent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E601AD01CA2B29B005C6DC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E601AAE1CA2B29A005C6DC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E601AB51CA2B29A005C6DC0;
+			remoteInfo = "Навигатор лекарств";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E1F1C3B1CA596DB008EF4E3 /* forscanner_extended.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = forscanner_extended.plist; sourceTree = "<group>"; };
+		5E1F1C3F1CA9598F008EF4E3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "ru.lproj/Main@3.5.strings"; sourceTree = "<group>"; };
+		5E1F1C401CA9598F008EF4E3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "ru.lproj/Main@4_testing.strings"; sourceTree = "<group>"; };
+		5E1F1C411CA95990008EF4E3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5E1F1C421CA95E6A008EF4E3 /* TopicsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicsCell.xib; sourceTree = "<group>"; };
+		5E1F1C451CA98E53008EF4E3 /* TopicsCell_photo+.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TopicsCell_photo+.xib"; sourceTree = "<group>"; };
+		5E4E5CD81CBEA9F300CCB3F4 /* OwnHttpReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnHttpReader.h; sourceTree = "<group>"; };
+		5E4E5CD91CBEA9F300CCB3F4 /* OwnHttpReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnHttpReader.m; sourceTree = "<group>"; };
+		5E4E5CDB1CC6681B00CCB3F4 /* overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay.png; sourceTree = "<group>"; };
+		5E4E5CDD1CC6759000CCB3F4 /* med_house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = med_house.png; sourceTree = "<group>"; };
+		5E55EB361CABDEAA00226301 /* forscanner_minified.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = forscanner_minified.plist; sourceTree = "<group>"; };
+		5E55EB381CAC1A2A00226301 /* ModalForAddingDrugs.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalForAddingDrugs.xib; sourceTree = "<group>"; };
+		5E55EB3A1CAC1A8F00226301 /* ModalForAddingDrugs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalForAddingDrugs.h; sourceTree = "<group>"; };
+		5E55EB3B1CAC1A8F00226301 /* ModalForAddingDrugs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalForAddingDrugs.m; sourceTree = "<group>"; };
+		5E55EB3D1CAC26EA00226301 /* PopOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopOverViewController.h; sourceTree = "<group>"; };
+		5E55EB3E1CAC26EA00226301 /* PopOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopOverViewController.m; sourceTree = "<group>"; };
+		5E55EB3F1CAC26EA00226301 /* PopOverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopOverViewController.xib; sourceTree = "<group>"; };
+		5E55EB431CAD440700226301 /* MedicineView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicineView.xib; sourceTree = "<group>"; };
+		5E55EB451CAD441600226301 /* MedicineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineView.h; sourceTree = "<group>"; };
+		5E55EB461CAD441600226301 /* MedicineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineView.m; sourceTree = "<group>"; };
+		5E55EEB21CEC892E0070FF23 /* ApothecariesListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApothecariesListController.h; sourceTree = "<group>"; };
+		5E55EEB31CEC892E0070FF23 /* ApothecariesListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApothecariesListController.m; sourceTree = "<group>"; };
+		5E55EEB61CEC89BF0070FF23 /* ApothecariesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApothecariesCell.h; sourceTree = "<group>"; };
+		5E55EEB71CEC89BF0070FF23 /* ApothecariesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApothecariesCell.m; sourceTree = "<group>"; };
+		5E55EEB91CEC8C790070FF23 /* ApothecariesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApothecariesCell.xib; sourceTree = "<group>"; };
+		5E601AB61CA2B29A005C6DC0 /* Навигатор лекарств.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Навигатор лекарств.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E601ABA1CA2B29B005C6DC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E601ABC1CA2B29B005C6DC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E601ABD1CA2B29B005C6DC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E601ABF1CA2B29B005C6DC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E601AC01CA2B29B005C6DC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E601AC31CA2B29B005C6DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main@3.5.storyboard"; sourceTree = "<group>"; };
+		5E601AC51CA2B29B005C6DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E601AC81CA2B29B005C6DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E601ACA1CA2B29B005C6DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E601ACF1CA2B29B005C6DC0 /* Навигатор лекарствUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Навигатор лекарствUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E601AD31CA2B29B005C6DC0 /* __________________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________________UITests.m"; sourceTree = "<group>"; };
+		5E601AD51CA2B29B005C6DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E601ADE1CA2C26B005C6DC0 /* Main@4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main@4.storyboard"; sourceTree = "<group>"; };
+		5E6C8E3C1CB3F652000EF2BC /* DescrByNameTblViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescrByNameTblViewController.h; sourceTree = "<group>"; };
+		5E6C8E3D1CB3F652000EF2BC /* DescrByNameTblViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescrByNameTblViewController.m; sourceTree = "<group>"; };
+		5E6C8E3F1CB3F689000EF2BC /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		5E6C8E411CB3F695000EF2BC /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		5E6C8E421CB3F695000EF2BC /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		5E6C8E511CB3F8EF000EF2BC /* AppDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetails.h; sourceTree = "<group>"; };
+		5E6C8E521CB3F8EF000EF2BC /* AppDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetails.m; sourceTree = "<group>"; };
+		5E6C8E541CB3F92F000EF2BC /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5E6C8E551CB3F92F000EF2BC /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		5E6C8E571CB3FA49000EF2BC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5E6C8E591CB3FA5F000EF2BC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5E6C8E5B1CB3FA67000EF2BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5E6C8E5D1CB3FAAD000EF2BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E6C8E5F1CB3FAD5000EF2BC /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		5E6C8E601CB3FAD5000EF2BC /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		5E6C8E611CB3FAD5000EF2BC /* MyAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotationView.h; sourceTree = "<group>"; };
+		5E6C8E621CB3FAD5000EF2BC /* MyAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotationView.m; sourceTree = "<group>"; };
+		5E6C8E651CB3FAE4000EF2BC /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		5E6C8E661CB3FAE4000EF2BC /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		5E6C8E811CB4009A000EF2BC /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		5E6C8E861CB40139000EF2BC /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		5E6C8E881CB40148000EF2BC /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
+		5E6D88811D33B357007E2C1B /* JLTStepper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTStepper.h; sourceTree = "<group>"; };
+		5E6D88821D33B395007E2C1B /* JLTStepper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTStepper.m; sourceTree = "<group>"; };
+		5E72C4F71CC7DE8200A0C34D /* 1_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_01.png; sourceTree = "<group>"; };
+		5E72C4F81CC7DE8200A0C34D /* 1_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_02.png; sourceTree = "<group>"; };
+		5E72C4F91CC7DE8200A0C34D /* 1_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_03.png; sourceTree = "<group>"; };
+		5E72C4FA1CC7DE8200A0C34D /* 1_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_04.png; sourceTree = "<group>"; };
+		5E72C4FB1CC7DE8200A0C34D /* 1_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_05.png; sourceTree = "<group>"; };
+		5E72C4FC1CC7DE8200A0C34D /* 1_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_06.png; sourceTree = "<group>"; };
+		5E72C4FD1CC7DE8200A0C34D /* 1_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_07.png; sourceTree = "<group>"; };
+		5E72C4FE1CC7DE8200A0C34D /* 1_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_08.png; sourceTree = "<group>"; };
+		5E72C4FF1CC7DE8200A0C34D /* 1_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_09.png; sourceTree = "<group>"; };
+		5E72C5001CC7DE8200A0C34D /* 1_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_10.png; sourceTree = "<group>"; };
+		5E72C5011CC7DE8200A0C34D /* 1_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_11.png; sourceTree = "<group>"; };
+		5E72C5021CC7DE8200A0C34D /* 1_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_12.png; sourceTree = "<group>"; };
+		5E72C5031CC7DE8200A0C34D /* 1_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_13.png; sourceTree = "<group>"; };
+		5E72C5041CC7DE8200A0C34D /* 1_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_14.png; sourceTree = "<group>"; };
+		5E72C5051CC7DE8200A0C34D /* 1_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_15.png; sourceTree = "<group>"; };
+		5EB9FDEA1CFC90FA00936A4D /* PreorderData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreorderData.h; sourceTree = "<group>"; };
+		5EB9FDEB1CFC90FA00936A4D /* PreorderData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreorderData.m; sourceTree = "<group>"; };
+		5EB9FDEE1CFEF35600936A4D /* MedicinesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicinesCell.h; sourceTree = "<group>"; };
+		5EB9FDEF1CFEF35600936A4D /* MedicinesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicinesCell.m; sourceTree = "<group>"; };
+		5EB9FDF11CFEF59700936A4D /* MedicinesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicinesCell.xib; sourceTree = "<group>"; };
+		5EC50AC81CD0BD71004497F5 /* drugstoreIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drugstoreIcon.png; sourceTree = "<group>"; };
+		5EC50ACA1CD0BFE8004497F5 /* drugstoreIcon_doubleWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drugstoreIcon_doubleWhite.png; sourceTree = "<group>"; };
+		5EC50ACB1CD0BFE8004497F5 /* drugstoreIcon_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drugstoreIcon_white.png; sourceTree = "<group>"; };
+		5EC50ACE1CD0C0D6004497F5 /* drugstoreIcon_minusWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drugstoreIcon_minusWhite.png; sourceTree = "<group>"; };
+		5EC50AD01CD0C62C004497F5 /* drugstoreIcon_minusWhite_strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drugstoreIcon_minusWhite_strip.png; sourceTree = "<group>"; };
+		5EC50AD21CD0C8FA004497F5 /* drugstoreIcon_green_strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drugstoreIcon_green_strip.png; sourceTree = "<group>"; };
+		5EC50AD41CD0E47A004497F5 /* DrugstoreDesk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugstoreDesk.h; sourceTree = "<group>"; };
+		5EC50AD51CD0E47A004497F5 /* DrugstoreDesk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugstoreDesk.m; sourceTree = "<group>"; };
+		5EC50AD71CE36B44004497F5 /* UserAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccount.h; sourceTree = "<group>"; };
+		5EC50AD81CE36B4E004497F5 /* UserAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccount.m; sourceTree = "<group>"; };
+		5EDD307C1CB583AD000071D0 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		5EDD307D1CB583AD000071D0 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		5EDD307E1CB583AD000071D0 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		5EDD307F1CB583AD000071D0 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		5EDD30821CB58520000071D0 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		5EDD30831CB58520000071D0 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		5EDD30851CB58543000071D0 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		5EDD30861CB58543000071D0 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		5EDD308A1CB7E053000071D0 /* MedicinesPreOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicinesPreOrderCell.h; sourceTree = "<group>"; };
+		5EDD308B1CB7E053000071D0 /* MedicinesPreOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicinesPreOrderCell.m; sourceTree = "<group>"; };
+		5EDD308D1CB7E0FE000071D0 /* MedicinesPreOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicinesPreOrderCell.xib; sourceTree = "<group>"; };
+		5EFD7B991CA2D33800CEF640 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		5EFD7B9A1CA2D33800CEF640 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		5EFD7BA01CA2D7E200CEF640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main@4_testing.storyboard"; sourceTree = "<group>"; };
+		5EFD7BA21CA2D92600CEF640 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreGraphics.framework; sourceTree = "<group>"; };
+		5EFD7BA31CA2D92600CEF640 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UIKit.framework; sourceTree = "<group>"; };
+		5EFD7BA41CA2D92600CEF640 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Foundation.framework; sourceTree = "<group>"; };
+		5EFD7BA81CA2DA8000CEF640 /* ArticleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleController.h; sourceTree = "<group>"; };
+		5EFD7BA91CA2DA8000CEF640 /* ArticleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleController.m; sourceTree = "<group>"; };
+		5EFD7BAB1CA2DAB400CEF640 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		5EFD7BAC1CA2DAB400CEF640 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		5EFD7BAD1CA2DAB400CEF640 /* Lifestyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lifestyle.h; sourceTree = "<group>"; };
+		5EFD7BAE1CA2DAB400CEF640 /* Lifestyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lifestyle.m; sourceTree = "<group>"; };
+		5EFD7BAF1CA2DAB400CEF640 /* Fashion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fashion.h; sourceTree = "<group>"; };
+		5EFD7BB01CA2DAB400CEF640 /* Fashion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fashion.m; sourceTree = "<group>"; };
+		5EFD7BB11CA2DAB400CEF640 /* Design.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Design.h; sourceTree = "<group>"; };
+		5EFD7BB21CA2DAB400CEF640 /* Design.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Design.m; sourceTree = "<group>"; };
+		5EFD7BB31CA2DAB400CEF640 /* TopicsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicsCell.h; sourceTree = "<group>"; };
+		5EFD7BB41CA2DAB400CEF640 /* TopicsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicsCell.m; sourceTree = "<group>"; };
+		5EFD7BB51CA2DAB400CEF640 /* HomeContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeContent.h; sourceTree = "<group>"; };
+		5EFD7BB61CA2DAB400CEF640 /* HomeContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeContent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E601AB31CA2B29A005C6DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6C8E891CB40148000EF2BC /* libSystem.tbd in Frameworks */,
+				5E6C8E871CB40139000EF2BC /* libiconv.tbd in Frameworks */,
+				5E6C8E821CB4009A000EF2BC /* libxml2.tbd in Frameworks */,
+				5E6C8E5E1CB3FAAD000EF2BC /* Foundation.framework in Frameworks */,
+				5E6C8E5C1CB3FA67000EF2BC /* QuartzCore.framework in Frameworks */,
+				5E6C8E5A1CB3FA5F000EF2BC /* CoreLocation.framework in Frameworks */,
+				5E6C8E581CB3FA49000EF2BC /* MapKit.framework in Frameworks */,
+				5EFD7BA51CA2D92600CEF640 /* CoreGraphics.framework in Frameworks */,
+				5EFD7BA71CA2D92600CEF640 /* Foundation.framework in Frameworks */,
+				5EFD7BA61CA2D92600CEF640 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E601ACC1CA2B29B005C6DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063990FCB0DE7AD817C67B07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E6C8E5D1CB3FAAD000EF2BC /* Foundation.framework */,
+				5E6C8E5B1CB3FA67000EF2BC /* QuartzCore.framework */,
+				5E6C8E591CB3FA5F000EF2BC /* CoreLocation.framework */,
+				5E6C8E571CB3FA49000EF2BC /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E1F1C441CA95FC2008EF4E3 /* Лекарства. Верстка для ячейки */ = {
+			isa = PBXGroup;
+			children = (
+				5EFD7BB31CA2DAB400CEF640 /* TopicsCell.h */,
+				5EFD7BB41CA2DAB400CEF640 /* TopicsCell.m */,
+				5E1F1C421CA95E6A008EF4E3 /* TopicsCell.xib */,
+				5E1F1C451CA98E53008EF4E3 /* TopicsCell_photo+.xib */,
+				5E55EB381CAC1A2A00226301 /* ModalForAddingDrugs.xib */,
+				5E6C8E3F1CB3F689000EF2BC /* FourthViewController.xib */,
+				5E55EB3A1CAC1A8F00226301 /* ModalForAddingDrugs.h */,
+				5E55EB3B1CAC1A8F00226301 /* ModalForAddingDrugs.m */,
+				5E55EB3D1CAC26EA00226301 /* PopOverViewController.h */,
+				5E55EB3E1CAC26EA00226301 /* PopOverViewController.m */,
+				5E55EB3F1CAC26EA00226301 /* PopOverViewController.xib */,
+			);
+			name = "Лекарства. Верстка для ячейки";
+			sourceTree = "<group>";
+		};
+		5E55EB421CAD43C900226301 /* Лекарства. Выезжающий список */ = {
+			isa = PBXGroup;
+			children = (
+				5E55EB431CAD440700226301 /* MedicineView.xib */,
+				5E55EB451CAD441600226301 /* MedicineView.h */,
+				5E55EB461CAD441600226301 /* MedicineView.m */,
+			);
+			name = "Лекарства. Выезжающий список";
+			sourceTree = "<group>";
+		};
+		5E55EEB51CEC89700070FF23 /* Аптеки. Список */ = {
+			isa = PBXGroup;
+			children = (
+				5E55EEB61CEC89BF0070FF23 /* ApothecariesCell.h */,
+				5E55EEB71CEC89BF0070FF23 /* ApothecariesCell.m */,
+				5E55EEB91CEC8C790070FF23 /* ApothecariesCell.xib */,
+			);
+			name = "Аптеки. Список";
+			sourceTree = "<group>";
+		};
+		5E601AAD1CA2B29A005C6DC0 = {
+			isa = PBXGroup;
+			children = (
+				5E6C8E881CB40148000EF2BC /* libSystem.tbd */,
+				5E6C8E861CB40139000EF2BC /* libiconv.tbd */,
+				5E6C8E811CB4009A000EF2BC /* libxml2.tbd */,
+				5E6C8E681CB3FFB6000EF2BC /* HTML2TXT */,
+				5EFD7B9B1CA2D33800CEF640 /* SlideOutMenuFiles */,
+				5E601AB81CA2B29B005C6DC0 /* Навигатор лекарств */,
+				5E601AD21CA2B29B005C6DC0 /* Навигатор лекарствUITests */,
+				5E601AB71CA2B29A005C6DC0 /* Products */,
+				063990FCB0DE7AD817C67B07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E601AB71CA2B29A005C6DC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E601AB61CA2B29A005C6DC0 /* Навигатор лекарств.app */,
+				5E601ACF1CA2B29B005C6DC0 /* Навигатор лекарствUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E601AB81CA2B29B005C6DC0 /* Навигатор лекарств */ = {
+			isa = PBXGroup;
+			children = (
+				5E601ABC1CA2B29B005C6DC0 /* AppDelegate.h */,
+				5E601ABD1CA2B29B005C6DC0 /* AppDelegate.m */,
+				5E6C8E511CB3F8EF000EF2BC /* AppDetails.h */,
+				5E6C8E521CB3F8EF000EF2BC /* AppDetails.m */,
+				5E6C8E5F1CB3FAD5000EF2BC /* MyAnnotation.h */,
+				5E6C8E601CB3FAD5000EF2BC /* MyAnnotation.m */,
+				5E6C8E611CB3FAD5000EF2BC /* MyAnnotationView.h */,
+				5E6C8E621CB3FAD5000EF2BC /* MyAnnotationView.m */,
+				5E601ABF1CA2B29B005C6DC0 /* ViewController.h */,
+				5E601AC01CA2B29B005C6DC0 /* ViewController.m */,
+				5E6C8E651CB3FAE4000EF2BC /* DetailedViewController.h */,
+				5E6C8E661CB3FAE4000EF2BC /* DetailedViewController.m */,
+				5EFD7BA81CA2DA8000CEF640 /* ArticleController.h */,
+				5EFD7BA91CA2DA8000CEF640 /* ArticleController.m */,
+				5E55EEB21CEC892E0070FF23 /* ApothecariesListController.h */,
+				5E55EEB31CEC892E0070FF23 /* ApothecariesListController.m */,
+				5EFD7BAB1CA2DAB400CEF640 /* HomeController.h */,
+				5EFD7BAC1CA2DAB400CEF640 /* HomeController.m */,
+				5E6C8E3C1CB3F652000EF2BC /* DescrByNameTblViewController.h */,
+				5E6C8E3D1CB3F652000EF2BC /* DescrByNameTblViewController.m */,
+				5E4E5CD81CBEA9F300CCB3F4 /* OwnHttpReader.h */,
+				5E4E5CD91CBEA9F300CCB3F4 /* OwnHttpReader.m */,
+				5EC50AD51CD0E47A004497F5 /* DrugstoreDesk.m */,
+				5EC50AD41CD0E47A004497F5 /* DrugstoreDesk.h */,
+				5E6C8E411CB3F695000EF2BC /* FourthViewController.h */,
+				5E6C8E421CB3F695000EF2BC /* FourthViewController.m */,
+				5E6C8E541CB3F92F000EF2BC /* GameViewController.h */,
+				5E6C8E551CB3F92F000EF2BC /* GameViewController.m */,
+				5EFD7BAD1CA2DAB400CEF640 /* Lifestyle.h */,
+				5EFD7BAE1CA2DAB400CEF640 /* Lifestyle.m */,
+				5EFD7BAF1CA2DAB400CEF640 /* Fashion.h */,
+				5EFD7BB01CA2DAB400CEF640 /* Fashion.m */,
+				5EFD7BB11CA2DAB400CEF640 /* Design.h */,
+				5EFD7BB21CA2DAB400CEF640 /* Design.m */,
+				5EC50AD71CE36B44004497F5 /* UserAccount.h */,
+				5EC50AD81CE36B4E004497F5 /* UserAccount.m */,
+				5E6D88811D33B357007E2C1B /* JLTStepper.h */,
+				5E6D88821D33B395007E2C1B /* JLTStepper.m */,
+				5EB9FDE71CFC90BA00936A4D /* Предзаказ */,
+				5E55EEB51CEC89700070FF23 /* Аптеки. Список */,
+				5EDD308F1CB7E11A000071D0 /* Лекарства. Список для предзаказа */,
+				5E55EB421CAD43C900226301 /* Лекарства. Выезжающий список */,
+				5E1F1C441CA95FC2008EF4E3 /* Лекарства. Верстка для ячейки */,
+				5EFD7BB51CA2DAB400CEF640 /* HomeContent.h */,
+				5EFD7BB61CA2DAB400CEF640 /* HomeContent.m */,
+				5E601AC21CA2B29B005C6DC0 /* Main@3.5.storyboard */,
+				5EFD7B9F1CA2D7E200CEF640 /* Main@4_testing.storyboard */,
+				5E601ADE1CA2C26B005C6DC0 /* Main@4.storyboard */,
+				5E601AC51CA2B29B005C6DC0 /* Assets.xcassets */,
+				5E601AC71CA2B29B005C6DC0 /* LaunchScreen.storyboard */,
+				5E601ACA1CA2B29B005C6DC0 /* Info.plist */,
+				5E1F1C3B1CA596DB008EF4E3 /* forscanner_extended.plist */,
+				5E55EB361CABDEAA00226301 /* forscanner_minified.plist */,
+				5E601AB91CA2B29B005C6DC0 /* Supporting Files */,
+			);
+			path = "Навигатор лекарств";
+			sourceTree = "<group>";
+		};
+		5E601AB91CA2B29B005C6DC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E72C4F71CC7DE8200A0C34D /* 1_01.png */,
+				5E72C4F81CC7DE8200A0C34D /* 1_02.png */,
+				5E72C4F91CC7DE8200A0C34D /* 1_03.png */,
+				5E72C4FA1CC7DE8200A0C34D /* 1_04.png */,
+				5E72C4FB1CC7DE8200A0C34D /* 1_05.png */,
+				5E72C4FC1CC7DE8200A0C34D /* 1_06.png */,
+				5E72C4FD1CC7DE8200A0C34D /* 1_07.png */,
+				5E72C4FE1CC7DE8200A0C34D /* 1_08.png */,
+				5E72C4FF1CC7DE8200A0C34D /* 1_09.png */,
+				5E72C5001CC7DE8200A0C34D /* 1_10.png */,
+				5E72C5011CC7DE8200A0C34D /* 1_11.png */,
+				5E72C5021CC7DE8200A0C34D /* 1_12.png */,
+				5E72C5031CC7DE8200A0C34D /* 1_13.png */,
+				5E72C5041CC7DE8200A0C34D /* 1_14.png */,
+				5E72C5051CC7DE8200A0C34D /* 1_15.png */,
+				5E4E5CDB1CC6681B00CCB3F4 /* overlay.png */,
+				5EC50AC81CD0BD71004497F5 /* drugstoreIcon.png */,
+				5EC50ACE1CD0C0D6004497F5 /* drugstoreIcon_minusWhite.png */,
+				5EC50ACA1CD0BFE8004497F5 /* drugstoreIcon_doubleWhite.png */,
+				5EC50ACB1CD0BFE8004497F5 /* drugstoreIcon_white.png */,
+				5EC50AD01CD0C62C004497F5 /* drugstoreIcon_minusWhite_strip.png */,
+				5EC50AD21CD0C8FA004497F5 /* drugstoreIcon_green_strip.png */,
+				5E4E5CDD1CC6759000CCB3F4 /* med_house.png */,
+				5EFD7BA21CA2D92600CEF640 /* CoreGraphics.framework */,
+				5EFD7BA31CA2D92600CEF640 /* UIKit.framework */,
+				5EFD7BA41CA2D92600CEF640 /* Foundation.framework */,
+				5E601ABA1CA2B29B005C6DC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E601AD21CA2B29B005C6DC0 /* Навигатор лекарствUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E601AD31CA2B29B005C6DC0 /* __________________UITests.m */,
+				5E601AD51CA2B29B005C6DC0 /* Info.plist */,
+			);
+			path = "Навигатор лекарствUITests";
+			sourceTree = "<group>";
+		};
+		5E6C8E681CB3FFB6000EF2BC /* HTML2TXT */ = {
+			isa = PBXGroup;
+			children = (
+				5EDD307C1CB583AD000071D0 /* HTMLNode.h */,
+				5EDD307D1CB583AD000071D0 /* HTMLNode.m */,
+				5EDD307E1CB583AD000071D0 /* HTMLParser.h */,
+				5EDD307F1CB583AD000071D0 /* HTMLParser.m */,
+				5EDD30821CB58520000071D0 /* NSString+HTML.h */,
+				5EDD30831CB58520000071D0 /* NSString+HTML.m */,
+				5EDD30851CB58543000071D0 /* GTMNSString+HTML.h */,
+				5EDD30861CB58543000071D0 /* GTMNSString+HTML.m */,
+			);
+			name = HTML2TXT;
+			path = "Навигатор лекарств/HTML2TXT";
+			sourceTree = "<group>";
+		};
+		5EB9FDE71CFC90BA00936A4D /* Предзаказ */ = {
+			isa = PBXGroup;
+			children = (
+				5EB9FDEA1CFC90FA00936A4D /* PreorderData.h */,
+				5EB9FDEB1CFC90FA00936A4D /* PreorderData.m */,
+				5EB9FDED1CFEF30100936A4D /* Таблица с позициями */,
+			);
+			name = "Предзаказ";
+			sourceTree = "<group>";
+		};
+		5EB9FDED1CFEF30100936A4D /* Таблица с позициями */ = {
+			isa = PBXGroup;
+			children = (
+				5EB9FDEE1CFEF35600936A4D /* MedicinesCell.h */,
+				5EB9FDEF1CFEF35600936A4D /* MedicinesCell.m */,
+				5EB9FDF11CFEF59700936A4D /* MedicinesCell.xib */,
+			);
+			name = "Таблица с позициями";
+			sourceTree = "<group>";
+		};
+		5EDD308F1CB7E11A000071D0 /* Лекарства. Список для предзаказа */ = {
+			isa = PBXGroup;
+			children = (
+				5EDD308A1CB7E053000071D0 /* MedicinesPreOrderCell.h */,
+				5EDD308B1CB7E053000071D0 /* MedicinesPreOrderCell.m */,
+				5EDD308D1CB7E0FE000071D0 /* MedicinesPreOrderCell.xib */,
+			);
+			name = "Лекарства. Список для предзаказа";
+			sourceTree = "<group>";
+		};
+		5EFD7B9B1CA2D33800CEF640 /* SlideOutMenuFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5EFD7B991CA2D33800CEF640 /* SWRevealViewController.h */,
+				5EFD7B9A1CA2D33800CEF640 /* SWRevealViewController.m */,
+			);
+			name = SlideOutMenuFiles;
+			path = ../NewsApp/NewsApp/SlideOutMenuFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E601AB51CA2B29A005C6DC0 /* Навигатор лекарств */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E601AD81CA2B29B005C6DC0 /* Build configuration list for PBXNativeTarget "Навигатор лекарств" */;
+			buildPhases = (
+				5E601AB21CA2B29A005C6DC0 /* Sources */,
+				5E601AB31CA2B29A005C6DC0 /* Frameworks */,
+				5E601AB41CA2B29A005C6DC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Навигатор лекарств";
+			productName = "Навигатор лекарств";
+			productReference = 5E601AB61CA2B29A005C6DC0 /* Навигатор лекарств.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E601ACE1CA2B29B005C6DC0 /* Навигатор лекарствUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E601ADB1CA2B29B005C6DC0 /* Build configuration list for PBXNativeTarget "Навигатор лекарствUITests" */;
+			buildPhases = (
+				5E601ACB1CA2B29B005C6DC0 /* Sources */,
+				5E601ACC1CA2B29B005C6DC0 /* Frameworks */,
+				5E601ACD1CA2B29B005C6DC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E601AD11CA2B29B005C6DC0 /* PBXTargetDependency */,
+			);
+			name = "Навигатор лекарствUITests";
+			productName = "Навигатор лекарствUITests";
+			productReference = 5E601ACF1CA2B29B005C6DC0 /* Навигатор лекарствUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E601AAE1CA2B29A005C6DC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Zzz;
+				TargetAttributes = {
+					5E601AB51CA2B29A005C6DC0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J57JQ6WHG5;
+					};
+					5E601ACE1CA2B29B005C6DC0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5E601AB51CA2B29A005C6DC0;
+					};
+				};
+			};
+			buildConfigurationList = 5E601AB11CA2B29A005C6DC0 /* Build configuration list for PBXProject "Навигатор лекарств" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E601AAD1CA2B29A005C6DC0;
+			productRefGroup = 5E601AB71CA2B29A005C6DC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E601AB51CA2B29A005C6DC0 /* Навигатор лекарств */,
+				5E601ACE1CA2B29B005C6DC0 /* Навигатор лекарствUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E601AB41CA2B29A005C6DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E72C5101CC7DE8200A0C34D /* 1_11.png in Resources */,
+				5E4E5CDC1CC6681C00CCB3F4 /* overlay.png in Resources */,
+				5E6C8E401CB3F689000EF2BC /* FourthViewController.xib in Resources */,
+				5E72C5121CC7DE8200A0C34D /* 1_13.png in Resources */,
+				5EFD7BA11CA2D7E200CEF640 /* Main@4_testing.storyboard in Resources */,
+				5E72C50D1CC7DE8200A0C34D /* 1_08.png in Resources */,
+				5EC50AD11CD0C62C004497F5 /* drugstoreIcon_minusWhite_strip.png in Resources */,
+				5E601AC91CA2B29B005C6DC0 /* LaunchScreen.storyboard in Resources */,
+				5E72C5111CC7DE8200A0C34D /* 1_12.png in Resources */,
+				5E55EB441CAD440700226301 /* MedicineView.xib in Resources */,
+				5E55EB371CABDEAA00226301 /* forscanner_minified.plist in Resources */,
+				5E72C50E1CC7DE8200A0C34D /* 1_09.png in Resources */,
+				5E72C50F1CC7DE8200A0C34D /* 1_10.png in Resources */,
+				5EC50AC91CD0BD71004497F5 /* drugstoreIcon.png in Resources */,
+				5E72C5131CC7DE8200A0C34D /* 1_14.png in Resources */,
+				5E72C50C1CC7DE8200A0C34D /* 1_07.png in Resources */,
+				5E55EB411CAC26EA00226301 /* PopOverViewController.xib in Resources */,
+				5E72C5091CC7DE8200A0C34D /* 1_04.png in Resources */,
+				5E1F1C3C1CA596DB008EF4E3 /* forscanner_extended.plist in Resources */,
+				5E55EB391CAC1A2A00226301 /* ModalForAddingDrugs.xib in Resources */,
+				5E72C5071CC7DE8200A0C34D /* 1_02.png in Resources */,
+				5E72C5081CC7DE8200A0C34D /* 1_03.png in Resources */,
+				5E72C50A1CC7DE8200A0C34D /* 1_05.png in Resources */,
+				5E4E5CDE1CC6759000CCB3F4 /* med_house.png in Resources */,
+				5EC50ACC1CD0BFE8004497F5 /* drugstoreIcon_doubleWhite.png in Resources */,
+				5EC50ACD1CD0BFE8004497F5 /* drugstoreIcon_white.png in Resources */,
+				5E601ADF1CA2C26B005C6DC0 /* Main@4.storyboard in Resources */,
+				5E1F1C461CA98E53008EF4E3 /* TopicsCell_photo+.xib in Resources */,
+				5EDD308E1CB7E0FE000071D0 /* MedicinesPreOrderCell.xib in Resources */,
+				5E72C50B1CC7DE8200A0C34D /* 1_06.png in Resources */,
+				5E601AC61CA2B29B005C6DC0 /* Assets.xcassets in Resources */,
+				5EC50ACF1CD0C0D6004497F5 /* drugstoreIcon_minusWhite.png in Resources */,
+				5E601AC41CA2B29B005C6DC0 /* Main@3.5.storyboard in Resources */,
+				5E72C5141CC7DE8200A0C34D /* 1_15.png in Resources */,
+				5E1F1C431CA95E6A008EF4E3 /* TopicsCell.xib in Resources */,
+				5E55EEBA1CEC8C790070FF23 /* ApothecariesCell.xib in Resources */,
+				5E72C5061CC7DE8200A0C34D /* 1_01.png in Resources */,
+				5EB9FDF21CFEF59700936A4D /* MedicinesCell.xib in Resources */,
+				5EC50AD31CD0C8FA004497F5 /* drugstoreIcon_green_strip.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E601ACD1CA2B29B005C6DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E601AB21CA2B29A005C6DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6D88831D33B395007E2C1B /* JLTStepper.m in Sources */,
+				5E55EEB81CEC89BF0070FF23 /* ApothecariesCell.m in Sources */,
+				5EC50AD61CD0E47A004497F5 /* DrugstoreDesk.m in Sources */,
+				5EFD7BB81CA2DAB400CEF640 /* Lifestyle.m in Sources */,
+				5EB9FDF01CFEF35600936A4D /* MedicinesCell.m in Sources */,
+				5E6C8E641CB3FAD5000EF2BC /* MyAnnotationView.m in Sources */,
+				5EDD308C1CB7E053000071D0 /* MedicinesPreOrderCell.m in Sources */,
+				5E55EB471CAD441600226301 /* MedicineView.m in Sources */,
+				5E55EB401CAC26EA00226301 /* PopOverViewController.m in Sources */,
+				5EDD30801CB583AD000071D0 /* HTMLNode.m in Sources */,
+				5EFD7BBA1CA2DAB400CEF640 /* Design.m in Sources */,
+				5E601AC11CA2B29B005C6DC0 /* ViewController.m in Sources */,
+				5E601ABE1CA2B29B005C6DC0 /* AppDelegate.m in Sources */,
+				5E6C8E431CB3F695000EF2BC /* FourthViewController.m in Sources */,
+				5E601ABB1CA2B29B005C6DC0 /* main.m in Sources */,
+				5E4E5CDA1CBEA9F300CCB3F4 /* OwnHttpReader.m in Sources */,
+				5EDD30841CB58520000071D0 /* NSString+HTML.m in Sources */,
+				5E6C8E3E1CB3F652000EF2BC /* DescrByNameTblViewController.m in Sources */,
+				5EDD30871CB58543000071D0 /* GTMNSString+HTML.m in Sources */,
+				5EFD7BB91CA2DAB400CEF640 /* Fashion.m in Sources */,
+				5E6C8E561CB3F92F000EF2BC /* GameViewController.m in Sources */,
+				5EFD7B9C1CA2D33800CEF640 /* SWRevealViewController.m in Sources */,
+				5EFD7BBB1CA2DAB400CEF640 /* TopicsCell.m in Sources */,
+				5E6C8E531CB3F8EF000EF2BC /* AppDetails.m in Sources */,
+				5E6C8E671CB3FAE4000EF2BC /* DetailedViewController.m in Sources */,
+				5EFD7BB71CA2DAB400CEF640 /* HomeController.m in Sources */,
+				5E6C8E631CB3FAD5000EF2BC /* MyAnnotation.m in Sources */,
+				5E55EB3C1CAC1A8F00226301 /* ModalForAddingDrugs.m in Sources */,
+				5E55EEB41CEC892E0070FF23 /* ApothecariesListController.m in Sources */,
+				5EFD7BAA1CA2DA8000CEF640 /* ArticleController.m in Sources */,
+				5EFD7BBC1CA2DAB400CEF640 /* HomeContent.m in Sources */,
+				5EDD30811CB583AD000071D0 /* HTMLParser.m in Sources */,
+				5EC50AD91CE36B53004497F5 /* UserAccount.m in Sources */,
+				5EB9FDEC1CFC90FA00936A4D /* PreorderData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E601ACB1CA2B29B005C6DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E601AD41CA2B29B005C6DC0 /* __________________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E601AD11CA2B29B005C6DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E601AB51CA2B29A005C6DC0 /* Навигатор лекарств */;
+			targetProxy = 5E601AD01CA2B29B005C6DC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E601AC21CA2B29B005C6DC0 /* Main@3.5.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E601AC31CA2B29B005C6DC0 /* Base */,
+				5E1F1C3F1CA9598F008EF4E3 /* ru */,
+			);
+			name = "Main@3.5.storyboard";
+			sourceTree = "<group>";
+		};
+		5E601AC71CA2B29B005C6DC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E601AC81CA2B29B005C6DC0 /* Base */,
+				5E1F1C411CA95990008EF4E3 /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5EFD7B9F1CA2D7E200CEF640 /* Main@4_testing.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFD7BA01CA2D7E200CEF640 /* Base */,
+				5E1F1C401CA9598F008EF4E3 /* ru */,
+			);
+			name = "Main@4_testing.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E601AD71CA2B29B005C6DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E601ADA1CA2B29B005C6DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CLANG_OPTIMIZATION_PROFILE_FILE[arch=*]" = "$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
+				INFOPLIST_FILE = "Навигатор лекарств/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "RLS.------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		5E601ADD1CA2B29B005C6DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Навигатор лекарствUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RLS.------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Навигатор лекарств";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E601AB11CA2B29A005C6DC0 /* Build configuration list for PBXProject "Навигатор лекарств" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E601AD71CA2B29B005C6DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E601AD81CA2B29B005C6DC0 /* Build configuration list for PBXNativeTarget "Навигатор лекарств" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E601ADA1CA2B29B005C6DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E601ADB1CA2B29B005C6DC0 /* Build configuration list for PBXNativeTarget "Навигатор лекарствUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E601ADD1CA2B29B005C6DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E601AAE1CA2B29A005C6DC0 /* Project object */;
+}

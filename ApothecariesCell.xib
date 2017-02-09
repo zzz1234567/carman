@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ApothecCell" rowHeight="171" id="6Ub-AM-7xr" userLabel="ApothecariesCell" customClass="ApothecariesCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="171"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="TopLeft" tableViewCell="6Ub-AM-7xr" id="Mnd-qQ-1lg">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="170"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gIi-fq-gDH">
+                        <rect key="frame" x="13" y="16" width="292" height="71"/>
+                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="32"/>
+                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="9" enabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ltu-u2-8PX">
+                        <rect key="frame" x="14" y="87" width="292" height="52"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" notEnabled="YES" adjustable="YES"/>
+                        </accessibility>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTc-Ud-W5l" userLabel="ResponsibleToClick">
+                        <rect key="frame" x="13" y="16" width="293" height="141"/>
+                        <connections>
+                            <action selector="apothRowClicked:" destination="6Ub-AM-7xr" eventType="touchUpInside" id="HFe-3j-gaH"/>
+                        </connections>
+                    </button>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="шт." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laj-b6-iz6" userLabel="SectionRowHolder">
+                        <rect key="frame" x="251" y="107" width="44" height="32"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Avenir-BookOblique" family="Avenir" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view hidden="YES" alpha="0.29999999999999999" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5sk-kE-P7t" userLabel="Offline">
+                        <rect key="frame" x="13" y="138" width="292" height="19"/>
+                        <color key="backgroundColor" red="0.89803921568627454" green="0.16470588235294117" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <view hidden="YES" alpha="0.29999999999999999" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lJW-ed-YYv" userLabel="Online">
+                        <rect key="frame" x="13" y="138" width="292" height="19"/>
+                        <color key="backgroundColor" red="0.24313725490196078" green="0.50196078431372548" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <view hidden="YES" alpha="0.29999999999999999" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GHF-y7-pEC" userLabel="Processing">
+                        <rect key="frame" x="13" y="138" width="292" height="19"/>
+                        <color key="backgroundColor" red="1" green="0.87450980392156863" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <view hidden="YES" alpha="0.30000001192092896" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m2H-3V-bdr" userLabel="Done">
+                        <rect key="frame" x="13" y="138" width="292" height="19"/>
+                        <color key="backgroundColor" red="0.4941176471" green="0.78823529410000004" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Оффлайн" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lI6-ow-L0P">
+                        <rect key="frame" x="193" y="138" width="102" height="19"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Онлайн" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7A-rB-3HY">
+                        <rect key="frame" x="193" y="138" width="102" height="19"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="В обработке..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbl-jj-JeO">
+                        <rect key="frame" x="193" y="138" width="102" height="19"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Готово" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mf7-4X-Pin">
+                        <rect key="frame" x="193" y="138" width="102" height="19"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="в наличии" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrZ-du-j0j">
+                        <rect key="frame" x="13" y="138" width="102" height="19"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" red="0.27843137254901962" green="0.54509803921568623" blue="0.85490196078431369" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="DoneHolder" destination="m2H-3V-bdr" id="K1c-Xl-qyP"/>
+                <outlet property="DoneText" destination="Mf7-4X-Pin" id="MW9-cU-byc"/>
+                <outlet property="OfflineHolder" destination="5sk-kE-P7t" id="XRs-gg-KXZ"/>
+                <outlet property="OfflineText" destination="lI6-ow-L0P" id="rAB-SP-qVZ"/>
+                <outlet property="OnlineHolder" destination="lJW-ed-YYv" id="IBZ-1V-x9b"/>
+                <outlet property="OnlineText" destination="J7A-rB-3HY" id="Jjn-Cn-2hX"/>
+                <outlet property="PresenceText" destination="HrZ-du-j0j" id="gCx-iP-CPz"/>
+                <outlet property="ProcessingHolder" destination="GHF-y7-pEC" id="soh-jS-lGN"/>
+                <outlet property="ProcessingText" destination="Hbl-jj-JeO" id="88R-Cs-rto"/>
+                <outlet property="SectionRowHolder" destination="laj-b6-iz6" id="jbo-Ne-ynG"/>
+                <outlet property="header" destination="gIi-fq-gDH" id="eYO-MU-HBd"/>
+                <outlet property="text" destination="Ltu-u2-8PX" id="yTV-2b-gOh"/>
+            </connections>
+            <point key="canvasLocation" x="257" y="215.5"/>
+        </tableViewCell>
+    </objects>
+</document>

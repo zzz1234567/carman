@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>5</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>2</string>
+				<key>prepname</key>
+				<string>5-АСА</string>
+				<key>firstletter</key>
+				<string>5</string>
+				<key>latinname</key>
+				<string>Actastav</string>
+				<key>nomenid</key>
+				<string>23415</string>
+				<key>prepid</key>
+				<string>15456</string>
+				<key>form</key>
+				<string>драже 250 мг, фл. темн. стекл.  10 пач. картон. 1</string>
+				<key>eancode</key>
+				<string>0</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>2</string>
+				<key>prepname</key>
+				<string>5-АСА</string>
+				<key>firstletter</key>
+				<string>5</string>
+				<key>latinname</key>
+				<string>Actastav</string>
+				<key>nomenid</key>
+				<string>23415</string>
+				<key>prepid</key>
+				<string>15456</string>
+				<key>form</key>
+				<string>драже 250 мг, фл. темн. стекл.  10 пач. картон. 1</string>
+				<key>eancode</key>
+				<string>0</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>3</string>
+				<key>prepname</key>
+				<string>5-АСА</string>
+				<key>firstletter</key>
+				<string>5</string>
+				<key>latinname</key>
+				<string>Actastav</string>
+				<key>nomenid</key>
+				<string>23417</string>
+				<key>prepid</key>
+				<string>15457</string>
+				<key>form</key>
+				<string>драже 500 мг, фл. темн. стекл.  100 пач. картон. 1</string>
+				<key>eancode</key>
+				<string>0</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>4</string>
+				<key>prepname</key>
+				<string>5-АСА</string>
+				<key>firstletter</key>
+				<string>5</string>
+				<key>latinname</key>
+				<string>Actastav</string>
+				<key>nomenid</key>
+				<string>13019</string>
+				<key>prepid</key>
+				<string>13019</string>
+				<key>form</key>
+				<string>супп. рект. 250 мг, бл.  5</string>
+				<key>eancode</key>
+				<string>0</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>5</string>
+				<key>prepname</key>
+				<string>5-НИТРОКС</string>
+				<key>firstletter</key>
+				<string>5</string>
+				<key>latinname</key>
+				<string>5-Nitrox®</string>
+				<key>nomenid</key>
+				<string>5424</string>
+				<key>prepid</key>
+				<string>5424</string>
+				<key>form</key>
+				<string>табл. п.о. 50 мг, уп. контурн. яч.  10 пач. картон. 8</string>
+				<key>eancode</key>
+				<string>3800712730113</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>6</string>
+				<key>prepname</key>
+				<string>5-ФТОРУРАЦИЛ-ЭБЕВЕ</string>
+				<key>firstletter</key>
+				<string>5</string>
+				<key>latinname</key>
+				<string>5-Fluorouracil-Ebewe</string>
+				<key>nomenid</key>
+				<string>12981</string>
+				<key>prepid</key>
+				<string>12981</string>
+				<key>form</key>
+				<string>р-р д/инф. концентрир. 50 мг/мл, фл. темн. стекл. 5 мл кор. 1</string>
+				<key>eancode</key>
+				<string>9088881314295</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>8</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33052</string>
+				<key>prepid</key>
+				<string>33052</string>
+				<key>form</key>
+				<string>сусп. д/ин. 5 мкг/0,5 мл 1 доз, фл. 0.5 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415029</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>9</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33049</string>
+				<key>prepid</key>
+				<string>54549</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415036</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>10</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>12936</string>
+				<key>prepid</key>
+				<string>12936</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 3 доз, фл. 3 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141420061</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>11</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33053</string>
+				<key>prepid</key>
+				<string>33053</string>
+				<key>form</key>
+				<string>сусп. д/ин. 40 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415043</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>12</string>
+				<key>prepname</key>
+				<string>HL-КОЛД</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>HL-Cold®</string>
+				<key>nomenid</key>
+				<string>3381</string>
+				<key>prepid</key>
+				<string>3381</string>
+				<key>form</key>
+				<string>табл. шип., бл.  10 уп. картон. 2</string>
+				<key>eancode</key>
+				<string>70030990794</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>8</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33052</string>
+				<key>prepid</key>
+				<string>33052</string>
+				<key>form</key>
+				<string>сусп. д/ин. 5 мкг/0,5 мл 1 доз, фл. 0.5 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415029</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>9</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33049</string>
+				<key>prepid</key>
+				<string>54549</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415036</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>10</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>12936</string>
+				<key>prepid</key>
+				<string>12936</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 3 доз, фл. 3 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141420061</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>11</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33053</string>
+				<key>prepid</key>
+				<string>33053</string>
+				<key>form</key>
+				<string>сусп. д/ин. 40 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415043</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>12</string>
+				<key>prepname</key>
+				<string>HL-КОЛД</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>HL-Cold®</string>
+				<key>nomenid</key>
+				<string>3381</string>
+				<key>prepid</key>
+				<string>3381</string>
+				<key>form</key>
+				<string>табл. шип., бл.  10 уп. картон. 2</string>
+				<key>eancode</key>
+				<string>70030990794</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>8</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33052</string>
+				<key>prepid</key>
+				<string>33052</string>
+				<key>form</key>
+				<string>сусп. д/ин. 5 мкг/0,5 мл 1 доз, фл. 0.5 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415029</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>9</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33049</string>
+				<key>prepid</key>
+				<string>54549</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415036</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>10</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>12936</string>
+				<key>prepid</key>
+				<string>12936</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 3 доз, фл. 3 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141420061</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>11</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33053</string>
+				<key>prepid</key>
+				<string>33053</string>
+				<key>form</key>
+				<string>сусп. д/ин. 40 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415043</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>12</string>
+				<key>prepname</key>
+				<string>HL-КОЛД</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>HL-Cold®</string>
+				<key>nomenid</key>
+				<string>3381</string>
+				<key>prepid</key>
+				<string>3381</string>
+				<key>form</key>
+				<string>табл. шип., бл.  10 уп. картон. 2</string>
+				<key>eancode</key>
+				<string>70030990794</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>8</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33052</string>
+				<key>prepid</key>
+				<string>33052</string>
+				<key>form</key>
+				<string>сусп. д/ин. 5 мкг/0,5 мл 1 доз, фл. 0.5 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415029</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>9</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33049</string>
+				<key>prepid</key>
+				<string>54549</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415036</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>10</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>12936</string>
+				<key>prepid</key>
+				<string>12936</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 3 доз, фл. 3 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141420061</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>11</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33053</string>
+				<key>prepid</key>
+				<string>33053</string>
+				<key>form</key>
+				<string>сусп. д/ин. 40 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415043</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>12</string>
+				<key>prepname</key>
+				<string>HL-КОЛД</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>HL-Cold®</string>
+				<key>nomenid</key>
+				<string>3381</string>
+				<key>prepid</key>
+				<string>3381</string>
+				<key>form</key>
+				<string>табл. шип., бл.  10 уп. картон. 2</string>
+				<key>eancode</key>
+				<string>70030990794</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>8</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33052</string>
+				<key>prepid</key>
+				<string>33052</string>
+				<key>form</key>
+				<string>сусп. д/ин. 5 мкг/0,5 мл 1 доз, фл. 0.5 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415029</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>9</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33049</string>
+				<key>prepid</key>
+				<string>54549</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415036</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>10</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>12936</string>
+				<key>prepid</key>
+				<string>12936</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 3 доз, фл. 3 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141420061</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>11</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33053</string>
+				<key>prepid</key>
+				<string>33053</string>
+				<key>form</key>
+				<string>сусп. д/ин. 40 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415043</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>12</string>
+				<key>prepname</key>
+				<string>HL-КОЛД</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>HL-Cold®</string>
+				<key>nomenid</key>
+				<string>3381</string>
+				<key>prepid</key>
+				<string>3381</string>
+				<key>form</key>
+				<string>табл. шип., бл.  10 уп. картон. 2</string>
+				<key>eancode</key>
+				<string>70030990794</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>8</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33052</string>
+				<key>prepid</key>
+				<string>33052</string>
+				<key>form</key>
+				<string>сусп. д/ин. 5 мкг/0,5 мл 1 доз, фл. 0.5 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415029</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>9</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33049</string>
+				<key>prepid</key>
+				<string>54549</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415036</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>10</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>12936</string>
+				<key>prepid</key>
+				<string>12936</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 3 доз, фл. 3 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141420061</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>11</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33053</string>
+				<key>prepid</key>
+				<string>33053</string>
+				<key>form</key>
+				<string>сусп. д/ин. 40 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415043</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>12</string>
+				<key>prepname</key>
+				<string>HL-КОЛД</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>HL-Cold®</string>
+				<key>nomenid</key>
+				<string>3381</string>
+				<key>prepid</key>
+				<string>3381</string>
+				<key>form</key>
+				<string>табл. шип., бл.  10 уп. картон. 2</string>
+				<key>eancode</key>
+				<string>70030990794</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>8</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33052</string>
+				<key>prepid</key>
+				<string>33052</string>
+				<key>form</key>
+				<string>сусп. д/ин. 5 мкг/0,5 мл 1 доз, фл. 0.5 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415029</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>9</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33049</string>
+				<key>prepid</key>
+				<string>54549</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415036</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>10</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>12936</string>
+				<key>prepid</key>
+				<string>12936</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 3 доз, фл. 3 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141420061</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>11</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33053</string>
+				<key>prepid</key>
+				<string>33053</string>
+				<key>form</key>
+				<string>сусп. д/ин. 40 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415043</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>12</string>
+				<key>prepname</key>
+				<string>HL-КОЛД</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>HL-Cold®</string>
+				<key>nomenid</key>
+				<string>3381</string>
+				<key>prepid</key>
+				<string>3381</string>
+				<key>form</key>
+				<string>табл. шип., бл.  10 уп. картон. 2</string>
+				<key>eancode</key>
+				<string>70030990794</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>8</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33052</string>
+				<key>prepid</key>
+				<string>33052</string>
+				<key>form</key>
+				<string>сусп. д/ин. 5 мкг/0,5 мл 1 доз, фл. 0.5 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415029</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>9</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33049</string>
+				<key>prepid</key>
+				<string>54549</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415036</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>10</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>12936</string>
+				<key>prepid</key>
+				<string>12936</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 3 доз, фл. 3 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141420061</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>11</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33053</string>
+				<key>prepid</key>
+				<string>33053</string>
+				<key>form</key>
+				<string>сусп. д/ин. 40 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415043</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>12</string>
+				<key>prepname</key>
+				<string>HL-КОЛД</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>HL-Cold®</string>
+				<key>nomenid</key>
+				<string>3381</string>
+				<key>prepid</key>
+				<string>3381</string>
+				<key>form</key>
+				<string>табл. шип., бл.  10 уп. картон. 2</string>
+				<key>eancode</key>
+				<string>70030990794</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>8</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33052</string>
+				<key>prepid</key>
+				<string>33052</string>
+				<key>form</key>
+				<string>сусп. д/ин. 5 мкг/0,5 мл 1 доз, фл. 0.5 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415029</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>9</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33049</string>
+				<key>prepid</key>
+				<string>54549</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415036</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>10</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>12936</string>
+				<key>prepid</key>
+				<string>12936</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 3 доз, фл. 3 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141420061</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>11</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33053</string>
+				<key>prepid</key>
+				<string>33053</string>
+				<key>form</key>
+				<string>сусп. д/ин. 40 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415043</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>12</string>
+				<key>prepname</key>
+				<string>HL-КОЛД</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>HL-Cold®</string>
+				<key>nomenid</key>
+				<string>3381</string>
+				<key>prepid</key>
+				<string>3381</string>
+				<key>form</key>
+				<string>табл. шип., бл.  10 уп. картон. 2</string>
+				<key>eancode</key>
+				<string>70030990794</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>8</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33052</string>
+				<key>prepid</key>
+				<string>33052</string>
+				<key>form</key>
+				<string>сусп. д/ин. 5 мкг/0,5 мл 1 доз, фл. 0.5 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415029</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>9</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33049</string>
+				<key>prepid</key>
+				<string>54549</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415036</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>10</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>12936</string>
+				<key>prepid</key>
+				<string>12936</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 3 доз, фл. 3 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141420061</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>11</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33053</string>
+				<key>prepid</key>
+				<string>33053</string>
+				<key>form</key>
+				<string>сусп. д/ин. 40 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415043</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>12</string>
+				<key>prepname</key>
+				<string>HL-КОЛД</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>HL-Cold®</string>
+				<key>nomenid</key>
+				<string>3381</string>
+				<key>prepid</key>
+				<string>3381</string>
+				<key>form</key>
+				<string>табл. шип., бл.  10 уп. картон. 2</string>
+				<key>eancode</key>
+				<string>70030990794</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>8</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33052</string>
+				<key>prepid</key>
+				<string>33052</string>
+				<key>form</key>
+				<string>сусп. д/ин. 5 мкг/0,5 мл 1 доз, фл. 0.5 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415029</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>9</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33049</string>
+				<key>prepid</key>
+				<string>54549</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415036</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>10</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>12936</string>
+				<key>prepid</key>
+				<string>12936</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 3 доз, фл. 3 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141420061</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>11</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33053</string>
+				<key>prepid</key>
+				<string>33053</string>
+				<key>form</key>
+				<string>сусп. д/ин. 40 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415043</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>12</string>
+				<key>prepname</key>
+				<string>HL-КОЛД</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>HL-Cold®</string>
+				<key>nomenid</key>
+				<string>3381</string>
+				<key>prepid</key>
+				<string>3381</string>
+				<key>form</key>
+				<string>табл. шип., бл.  10 уп. картон. 2</string>
+				<key>eancode</key>
+				<string>70030990794</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>8</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33052</string>
+				<key>prepid</key>
+				<string>33052</string>
+				<key>form</key>
+				<string>сусп. д/ин. 5 мкг/0,5 мл 1 доз, фл. 0.5 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415029</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>9</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33049</string>
+				<key>prepid</key>
+				<string>54549</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415036</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>10</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>12936</string>
+				<key>prepid</key>
+				<string>12936</string>
+				<key>form</key>
+				<string>сусп. д/ин. 10 мкг/мл 3 доз, фл. 3 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141420061</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>11</string>
+				<key>prepname</key>
+				<string>H-B-ВАКС II</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>H-B-Vax II®</string>
+				<key>nomenid</key>
+				<string>33053</string>
+				<key>prepid</key>
+				<string>33053</string>
+				<key>form</key>
+				<string>сусп. д/ин. 40 мкг/мл 1 доз, фл. 1 мл кор. 1</string>
+				<key>eancode</key>
+				<string>8711141415043</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>12</string>
+				<key>prepname</key>
+				<string>HL-КОЛД</string>
+				<key>firstletter</key>
+				<string>H</string>
+				<key>latinname</key>
+				<string>HL-Cold®</string>
+				<key>nomenid</key>
+				<string>3381</string>
+				<key>prepid</key>
+				<string>3381</string>
+				<key>form</key>
+				<string>табл. шип., бл.  10 уп. картон. 2</string>
+				<key>eancode</key>
+				<string>70030990794</string>
+			</dict>			
+		</array>
+	</dict>	
+</array>
+</plist>

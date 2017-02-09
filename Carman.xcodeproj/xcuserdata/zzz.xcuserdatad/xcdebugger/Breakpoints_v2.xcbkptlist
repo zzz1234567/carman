@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x41d;&#x430;&#x432;&#x438;&#x433;&#x430;&#x442;&#x43e;&#x440; &#x43b;&#x435;&#x43a;&#x430;&#x440;&#x441;&#x442;&#x432;/HomeController.m"
+            timestampString = "489926553.365739"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "863"
+            endingLineNumber = "863"
+            landmarkName = "-tableView:sectionForSectionIndexTitle:atIndex:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x41d;&#x430;&#x432;&#x438;&#x433;&#x430;&#x442;&#x43e;&#x440; &#x43b;&#x435;&#x43a;&#x430;&#x440;&#x441;&#x442;&#x432;/DescrByNameTblViewController.h"
+            timestampString = "482261567.142044"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "@interface DescrByNameTblViewController"
+            landmarkType = "2">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DescrByNameTblViewController tagsQuantity]"
+                  moduleName = "&#x41d;&#x430;&#x432;&#x438;&#x433;&#x430;&#x442;&#x43e;&#x440; &#x43b;&#x435;&#x43a;&#x430;&#x440;&#x441;&#x442;&#x432;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zzz/AppleObjc/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80%20%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80%20%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2/DescrByNameTblViewController.h"
+                  timestampString = "481798848.526555"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DescrByNameTblViewController setTagsQuantity:]"
+                  moduleName = "&#x41d;&#x430;&#x432;&#x438;&#x433;&#x430;&#x442;&#x43e;&#x440; &#x43b;&#x435;&#x43a;&#x430;&#x440;&#x441;&#x442;&#x432;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zzz/AppleObjc/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80%20%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80%20%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2/DescrByNameTblViewController.h"
+                  timestampString = "481798848.526757"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x41d;&#x430;&#x432;&#x438;&#x433;&#x430;&#x442;&#x43e;&#x440; &#x43b;&#x435;&#x43a;&#x430;&#x440;&#x441;&#x442;&#x432;/ArticleController.m"
+            timestampString = "489938509.269128"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x41d;&#x430;&#x432;&#x438;&#x433;&#x430;&#x442;&#x43e;&#x440; &#x43b;&#x435;&#x43a;&#x430;&#x440;&#x441;&#x442;&#x432;/ArticleController.m"
+            timestampString = "489938509.269128"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x41d;&#x430;&#x432;&#x438;&#x433;&#x430;&#x442;&#x43e;&#x440; &#x43b;&#x435;&#x43a;&#x430;&#x440;&#x441;&#x442;&#x432;/ViewController.m"
+            timestampString = "485261897.218249"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "914"
+            endingLineNumber = "914"
+            landmarkName = "-panMiddlePosition:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x41d;&#x430;&#x432;&#x438;&#x433;&#x430;&#x442;&#x43e;&#x440; &#x43b;&#x435;&#x43a;&#x430;&#x440;&#x441;&#x442;&#x432;/OwnHttpReader.m"
+            timestampString = "490016394.146617"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "-URLSession:downloadTask:didFinishDownloadingToURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x41d;&#x430;&#x432;&#x438;&#x433;&#x430;&#x442;&#x43e;&#x440; &#x43b;&#x435;&#x43a;&#x430;&#x440;&#x441;&#x442;&#x432;/DrugstoreDesk.m"
+            timestampString = "487244376.037439"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "-URLSession:dataTask:didReceiveResponse:completionHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
